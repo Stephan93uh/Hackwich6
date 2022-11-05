@@ -8,13 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    var myFriendsArray = ["Sara", "Nicole", "Grant"]
+    //var myFriendsArray = ["Sara", "Nicole", "Grant"]
     
     //Hackwich6 Problem set
     var travelList = ["Japan", "Denmark", "Iceland", "Finland", "United Kingdom"]
     
     //Hackwioch7 Problem set
-    var friendsHomeArray = ["Honolulu", "Waipahu", "Aiea"]
+    //var friendsHomeArray = ["Honolulu", "Waipahu", "Aiea"]
+    
+    //Hackwich10 Problem Set
+    var myFriendsArray = ["Kapolei Kalapawai"]
+    var friendsHomeArray = ["711 Kamokila Blvd, Kapolei, HI 96707"]
     
     //Hackwich10
     @IBOutlet weak var tableView: UITableView!
